@@ -39,6 +39,9 @@ a{
 .nav-li{
     margin-right: 32px;
 }
+.nav-li:hover{
+    color: #F58A07;
+}
 .nav-box{
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
@@ -116,6 +119,7 @@ footer{
 }
 .all-footer{
     display: flex;
+    align-items: flex-start;
 }
 .footer-left-top>p{
     font-weight: 600;
@@ -145,6 +149,13 @@ footer{
     margin-bottom: 16px;
     line-height: 24px;
 }
+.footer-center1>ul{
+    margin-top: 0;
+}
+.footer-center2>ul{
+    margin-top: 0;
+}
+
 .footer-center1{
     margin-left: 80px;
 }
@@ -158,6 +169,9 @@ footer{
     line-height: 24px;
     color: #FFFFFF;
 }
+.footer-center2-all-li:hover{
+    color: #000;
+}
 .footer-center2-li{
     margin-bottom: 26px;
     font-weight: 600;
@@ -167,6 +181,7 @@ footer{
 }
 .footer-right{margin-left: 137px;}
 .footer-right-title{
+    margin-top: 0;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
@@ -189,6 +204,9 @@ footer{
     border-radius: 31px;
     color: #FFF;
     padding: 17px 32px;
+}
+.footer-right-btn:hover{
+    color: #000;
 }
 .footer-bot{
     margin-top: 82.67px;
@@ -230,4 +248,17 @@ footer{
     right: 0;
     border-top-left-radius:20px ;
     border-end-start-radius:20px;
+}
+.all-icon{
+    color: white;
+}
+.all-icon:hover{
+    color: #000;
+}
+.footer-center{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-center1-all-li:hover{
+    color: #000;
 }

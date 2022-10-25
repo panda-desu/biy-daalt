@@ -46,6 +46,12 @@
 .main-center{
     margin-top: 64px;
     display: flex;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+}
+.main-center-left{
+    padding-top:  68px ;
+    padding-left: 68px;
 }
 .main-center-left-title{
     font-weight: 600;
@@ -59,10 +65,9 @@
     line-height: 30px;
     letter-spacing: -0.03em;
     color: #0D1317;
-    margin-top: 40px;
 }
-.all-title{
-    margin-left: 68px;
+.main-center-right{
+    padding-top: 64px;
 }
 .main-center-right-txt{
     margin-left: 92px;
