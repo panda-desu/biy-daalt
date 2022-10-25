@@ -80,10 +80,15 @@
 }
 .all-main-card img{
     border-radius: 20px;
+    filter: grayscale(100%);
+}
+.all-main-card img:hover{
+    filter: grayscale(0);
 }
 .all-main-card{
     width: 400px;
     flex-wrap: wrap;
+    
 }   
 .main-topcenter-card-title{
     margin-top: 33px;
@@ -99,6 +104,7 @@
     font-size: 16px;
     line-height: 28px;
 }
+
 .main-topcenter-card-btn{
     margin-top: 24px;
     font-weight: 500;
@@ -223,7 +229,20 @@
     line-height: 28px;
     color: #5B5B5B;
 }
+.main-center1-right{
+    position: relative;
+}
 .main-center1-right>img{
+    border-radius: 20px;
+}
+.main-center1-right-box{
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    height: 667px;
+    width: 153px;
+    position: absolute;
+    top: 0;
+    left: 0;  
     border-radius: 20px;
 }
 .main-center2{

@@ -1,0 +1,135 @@
+.main-head{
+    display: flex;
+}
+.main-head-left-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    width: 640px;
+}
+.main-head-left-title2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    /* width: 169px; */
+}
+.main-head-left-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    width: 640px;
+}
+.main-head-right{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    margin-left: 284px;
+}
+.main-head-right-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.main-head-right-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+        color: #5B5B5B;
+}
+.main-center{
+    margin-top: 64px;
+    display: flex;
+}
+.main-center-left-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 108.5%;
+    color: #F58A07;
+}
+.main-center-left-title1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-top: 40px;
+}
+.all-title{
+    margin-left: 68px;
+}
+.main-center-right-txt{
+    margin-left: 92px;
+    margin-bottom: 69px;
+    width: 842px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+.main-footer{
+    margin-top: 128px;
+}
+.main-footer-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.main-footer-input{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.footer-input{
+    border: 0;
+    height: 54px;
+    width: 628px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: inherit;
+    color: #9C9C9C;
+    padding: 0 20px;
+}
+.input3{
+    font-style: italic;
+}
+.footer-input2{
+    font-family: inherit;
+    border: 0;
+    padding: 29px 32px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    margin-top: 24px;
+    width: 1280px;
+    height: 285px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.btn{
+    display: inline-block;
+    margin-top: 32px;
+    margin-bottom: 147px;
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 18px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
